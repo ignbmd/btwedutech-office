@@ -1,0 +1,17 @@
+.filepond-label {
+  color: #585858;
+}
+
+.filepond--root,
+.filepond--drop-label {
+  height: auto;
+}
+
+.filepond--credits {
+  display: none;
+}
+
+.filepond--label-action {
+  text-decoration: underline;
+  color: #3b99fd;
+}

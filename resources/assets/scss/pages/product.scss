@@ -1,0 +1,26 @@
+.image-previews {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.image-previews .block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.image-previews .block,
+.image-previews .block img {
+  width: 100%;
+}
+
+.product-card__img-container {
+  max-height: 180px;
+}
+
+.product-card__img-container img {
+  object-fit: contain;
+  height: 100%;
+}

@@ -1,0 +1,8 @@
+.ecommerce-application
+  .list-view
+  .ecommerce-card
+  .card-body
+  .item-description
+  ul {
+    padding-inline-start: 20px;
+}

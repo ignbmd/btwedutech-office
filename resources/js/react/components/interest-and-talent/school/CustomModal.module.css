@@ -1,0 +1,154 @@
+.CustomModal :global(.modal-header .close) {
+  margin: -4rem -2rem 0 auto;
+}
+
+.CustomModal :global(.modal-title) {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.CustomModal :global(.text-option) {
+  position: relative;
+  text-align: center;
+}
+
+.CustomModal :global(.text-option::before) {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 47%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #e8e8e8;
+}
+
+.CustomModal :global(.text-option::after) {
+  content: " ";
+  height: 2px;
+  width: 47%;
+  background: #e8e8e8;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.CustomModal :global(.text-info-sm) {
+  font-size: 12px;
+  color: #949494;
+}
+
+.CustomModal :global(.filepond-label) {
+  color: #585858;
+}
+
+.CustomModal :global(.filepond--root),
+.CustomModal :global(.filepond--drop-label) {
+  height: auto;
+}
+
+.CustomModal :global(.filepond--credits) {
+  display: none;
+}
+
+.CustomModal :global(.filepond--label-action) {
+  text-decoration: underline;
+  color: #3b99fd;
+}
+
+.CustomModal :global(.modal-header-primary-text) {
+  color: #585858;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.CustomModal :global(.modal-header-secondary-text) {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.AccessCodeModal :global(.filepond--list.filepond--list) {
+  margin: 2.5em auto;
+}
+
+.SchoolModal :global(.filepond--list.filepond--list) {
+  margin: 2.5em auto;
+}
+
+.AssginedCodeCustomModal :global(.modal-title) {
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.AssginedCodeCustomModal :global(.modal-body) {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.AssginedCodeCustomModal :global(.text-muted) {
+  color: #949494 !important;
+  font-weight: 500;
+}
+
+.AssginedCodeCustomModal :global(::-webkit-scrollbar-track) {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.AssginedCodeCustomModal :global(::-webkit-scrollbar-thumb) {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.AssginedCodeCustomModal :global(::-webkit-scrollbar-corner) {
+  background-color: #f1f1f1;
+}
+
+.AssginedCodeCustomModal :global(::-webkit-scrollbar) {
+  width: 10px;
+  height: 10px;
+}
+
+.AssginedCodeCustomModal :global(::-webkit-scrollbar-thumb) {
+  height: 50px;
+  width: 50px;
+}
+
+.AssginedCodeCustomModal :global(::-webkit-scrollbar) {
+  margin-left: -100px;
+}
+
+.AssginedCodeCustomModal :global(::-webkit-scrollbar-thumb:hover) {
+  background-color: #aaa;
+}
+
+table {
+  border: 1px solid #e8e8e8;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+td,
+th {
+  padding: 1rem;
+  border-right: 1px solid #e8e8e8;
+}
+
+th {
+  background-color: #f1f1f1;
+  text-transform: uppercase;
+  border-bottom: none;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+td {
+  background-color: #ffffff;
+}

@@ -1,0 +1,126 @@
+.answer-question-create {
+  max-width: 67%;
+}
+
+/* when screen is below 768px */
+@media screen and (max-width: 768px) {
+  .answer-question-create {
+    max-width: 40%;
+    min-width: 40%;
+  }
+}
+
+.answer-question-edit {
+  max-width: 75%;
+}
+
+/* when screen is below 768px */
+@media screen and (max-width: 768px) {
+  .answer-question-edit {
+    max-width: 55%;
+    min-width: 40%;
+  }
+}
+
+.cke_editable {
+  min-height: 3.2em;
+}
+
+.custom-option {
+  padding-left: 0;
+  border: 1px solid rgba(216, 216, 216, 1);
+  border-radius: 6.5px;
+}
+
+.custom-option,
+.custom-option-content,
+.custom-statement-option,
+.custom-statement-option-content {
+  cursor: pointer;
+  width: 100%;
+}
+
+.custom-option-basic .custom-option-content {
+  padding: 5em;
+}
+
+.custom-statement-option-basic .custom-statement-option-content {
+  padding: 6em;
+}
+
+.custom-option.checked {
+  border: 1px solid rgba(216, 216, 216, 1);
+  background: #ecfcff;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+}
+
+.form-check .form-check-input {
+  float: left;
+  margin-left: -5.25em;
+  margin-top: 3.5em;
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.form-check-input {
+  width: 25px;
+  height: 25px;
+  margin-top: 0.135em;
+  vertical-align: top;
+  background-color: rgba(249, 249, 249, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 2px solid rgba(216, 216, 216, 1);
+  appearance: none;
+  print-color-adjust: exact;
+}
+
+.form-check-input:checked {
+  background-color: #c7f4fe;
+  border: 2px solid #5ecce4;
+}
+
+.form-check-input:checked,
+.form-check-input[type="checkbox"]:indeterminate {
+  background-color: #c7f4fe;
+  border: 2px solid #5ecce4;
+}
+
+.form-check .form-check-input:checked,
+.form-check .form-check-input[type="checkbox"]:indeterminate {
+  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+}
+
+.form-check-input:checked[type="checkbox"] {
+  background-image: url("https://btw-cdn.com/assets/office/icons/checkbox_bank_soal.svg");
+}
+
+.unchosen-key {
+  width: 68px;
+  height: 33px;
+  background-image: url("https://btw-cdn.com/assets/office/icons/icon_kunci_jawaban.svg");
+  background-size: cover;
+}
+
+.chosen-key {
+  width: 68px;
+  height: 33px;
+  background-image: url("https://btw-cdn.com/assets/office/icons/icon_kunci_jawaban_2.svg");
+  background-size: cover;
+}
+
+.statement-question-table,
+.statement-question-table td {
+  border: 1px solid #d8d8d8;
+}
+
+.chosen-cell {
+  background-color: #e7fbff;
+  border: 1px solid rgba(216, 216, 216, 1);
+}

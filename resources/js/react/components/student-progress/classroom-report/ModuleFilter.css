@@ -1,0 +1,9 @@
+.module-filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.module-filter-select {
+  flex-grow: 1;
+}

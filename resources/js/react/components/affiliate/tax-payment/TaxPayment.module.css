@@ -1,0 +1,11 @@
+.taxPayment-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 1.5rem;
+}
+
+.taxPayment-detail-container {
+  display: flex;
+  gap: 2rem;
+}

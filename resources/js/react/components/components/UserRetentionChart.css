@@ -1,0 +1,57 @@
+.c-smart-chart {
+  display: flex;
+  white-space: normal;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: var(--color-beta-surface);
+}
+.box {
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  width: 100%;
+}
+.box-body {
+  overflow: auto;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.box-header {
+  color: #444;
+  display: block;
+  padding: 10px;
+  position: relative;
+}
+.box-header .box-title {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1;
+}
+.box-title {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1;
+}
+.retention-thead,
+.retention-date {
+  background-color: #63d7ce;
+  font-weight: 700;
+  padding: 8px;
+  color: #00645e;
+}
+.days {
+  cursor: pointer;
+  padding: 8px;
+  text-align: center;
+}
+
+#user-retention-chart td {
+  border: 1px solid #fff;
+  white-space: nowrap;
+}

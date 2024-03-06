@@ -1,0 +1,7 @@
+.react-dataTable .rdt_TableRow img {
+  width: 100% !important;
+  object-fit: contain;
+  /* border: 0 !important; */
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

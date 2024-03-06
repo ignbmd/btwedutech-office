@@ -1,0 +1,47 @@
+export const initialDatatables = [
+  {
+    id: 1,
+    title: "Sesi #1",
+    max_capacity: 100,
+    total_participat: 50,
+    start_datetime: "2022-01-19 09:00",
+    end_datetime: "2022-01-20 09:00",
+    status: true,
+  },
+  {
+    id: 2,
+    title: "Sesi #2",
+    max_capacity: 100,
+    total_participat: 100,
+    start_datetime: "2022-01-19 09:00",
+    end_datetime: "2022-01-20 09:00",
+    status: true,
+  },
+  {
+    id: 3,
+    title: "Sesi #3",
+    max_capacity: 100,
+    total_participat: 50,
+    start_datetime: "2022-01-19 09:00",
+    end_datetime: "2022-01-20 09:00",
+    status: true,
+  },
+  {
+    id: 4,
+    title: "Sesi #4",
+    max_capacity: 100,
+    total_participat: 50,
+    start_datetime: "2022-01-19 09:00",
+    end_datetime: "2022-01-20 09:00",
+    status: true,
+  },
+  {
+    id: 5,
+    title: "Sesi #5",
+    max_capacity: 100,
+    total_participat: 50,
+    start_datetime: "2022-01-19 09:00",
+    end_datetime: "2022-01-20 09:00",
+    status: true,
+  }
+];

@@ -1,0 +1,13 @@
+.ecommerce-application
+  .list-view
+  .ecommerce-card
+  .card-body
+  .item-description
+  ul {
+    padding-inline-start: 20px;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

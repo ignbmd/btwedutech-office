@@ -1,0 +1,23 @@
+.CustomTable :global(.rdt_Table) {
+  border: 1px solid #e8e8e8 !important;
+}
+
+.CustomTable :global(.rdt_TableHeadRow) {
+  background-color: #f1f1f1 !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.CustomTable :global(.rdt_TableCol:not(:first-child)),
+.CustomTable :global(.rdt_TableCell:not(:first-child)) {
+  border-left: 1px solid #e8e8e8 !important;
+  border-collapse: collapse !important;
+}
+
+.CustomTable :global(.rdt_TableRow:not(:last-of-type)) {
+  border-bottom: none !important;
+}
+
+.CustomTable :global(.rdt_TableRow:nth-child(odd)) {
+  background-color: #f9f9f9 !important;
+}

@@ -1,0 +1,15 @@
+version: "3"
+networks: 
+    smartbtw:
+        external: true
+services: 
+    app:
+        container_name: btw-edutech-office
+        build: 
+            context: .
+        volumes: 
+            - ./:/var/www/html
+        networks: 
+            smartbtw:
+                aliases: 
+                    - btw-edutech-office

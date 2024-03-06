@@ -1,0 +1,31 @@
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.otp {
+  background-color: rgba(248, 248, 248, 1);
+  border: 1px solid rgba(216, 216, 216, 1);
+  border-radius: 8px;
+  width: 914px;
+  height: 313px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgba(88, 88, 88, 1);
+  font-weight: 700;
+}
+
+.otp-number {
+  font-size: 150px;
+  letter-spacing: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.otp-timer {
+  color: rgba(255, 85, 105, 1);
+}

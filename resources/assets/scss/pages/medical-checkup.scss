@@ -1,0 +1,17 @@
+.bs-stepper-box {
+  flex-shrink: 0;
+}
+
+.bs-stepper-header .step {
+  max-width: 300px;
+}
+
+.bs-stepper
+  .bs-stepper-header
+  .step
+  .step-trigger
+  .bs-stepper-label
+  .bs-stepper-title {
+  white-space: normal;
+  word-break: break-word;
+}

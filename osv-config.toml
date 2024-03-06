@@ -1,0 +1,29 @@
+[[IgnoredVulns]]
+id = "GHSA-8jh9-wqpf-q52c"
+ignoreUntil = "2024-12-01T00:00:00Z"
+reason = "It was recommended to downgrade from the current version (10.14.0) to < 8.19.1 until the maintainer releases a fix, which may cause breaking changes & No available patch for this vulnerability for the current version."
+
+[[IgnoredVulns]]
+id = "GHSA-pg98-6v7f-2xfv"
+ignoreUntil = "2024-12-01T00:00:00Z"
+reason = "It was recommended to downgrade from the current version (10.14.0) to < 8.19.1 until the maintainer releases a fix, which may cause breaking changes & No available patch for this vulnerability for the current version."
+
+[[IgnoredVulns]]
+id = "GHSA-7fh5-64p2-3v2j"
+ignoreUntil = "2024-12-01T00:00:00Z"
+reason = "Patched version of the package is not available at the moment"
+
+[[IgnoredVulns]]
+id = "GHSA-wf5p-g6vw-rhxx"
+ignoreUntil = "2024-12-01T00:00:00Z"
+reason = "Patched version of the package is not available at the moment"
+
+[[IgnoredVulns]]
+id = "GHSA-c2qf-rxjj-qqgw"
+ignoreUntil = "2024-12-01T00:00:00Z"
+reason = "Patched version of the package is not available at the moment"
+
+[[IgnoredVulns]]
+id = "GHSA-78xj-cgh5-2h22"
+ignoreUntil = "2024-12-01T00:00:00Z"
+reason = "Patched version of the package is not available at the moment"

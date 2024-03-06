@@ -1,0 +1,16 @@
+.react-dataTable .rdt_TableRow:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.react-dataTable .rdt_TableCell {
+  border-left: 1px solid #e8e8e8;
+}
+
+.react-dataTable .rdt_TableCol {
+  border-top: 1px solid #efefef;
+  border-left: 1px solid #e8e8e8;
+}
+
+.react-dataTable .rdt_TableBody {
+  border-bottom: 1px solid #c2c1c1;
+}

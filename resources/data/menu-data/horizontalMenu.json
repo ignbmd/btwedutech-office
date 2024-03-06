@@ -1,0 +1,16 @@
+{
+  "menu": [
+    {
+      "url": "home",
+      "name": "Home",
+      "icon": "home",
+      "slug": "home"
+    },
+    {
+      "name": "Pembelajaran",
+      "icon": "layout",
+      "dropdown": "1",
+      "slug": "pembelajaran"
+    }
+  ]
+}

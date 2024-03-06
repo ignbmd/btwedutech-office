@@ -1,0 +1,9 @@
+.dark-layout {
+  .notes {
+    background-color: #3c445a;
+  }
+
+  .notes::before {
+    background-color: #DDDDDD;
+  }
+}

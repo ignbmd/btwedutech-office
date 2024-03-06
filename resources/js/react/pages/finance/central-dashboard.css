@@ -1,0 +1,32 @@
+.bank-balance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.bank-balance__divider {
+  flex-grow: 1;
+  border-bottom: 1px solid #ccc;
+  margin: 5px;
+}
+
+.bank-balance__price,
+.payment-gateway-balance__price-body {
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+.payment-gateway-balance__withdraw-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10%;
+  margin-bottom: 2rem;
+}
+
+.payment-gateway-balance__price-header {
+  color: #ccc;
+  margin-bottom: 0.25rem;
+}

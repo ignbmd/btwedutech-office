@@ -1,0 +1,11 @@
+.affiliate-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.affiliate-detail-container {
+  display: flex;
+  gap: 2rem;
+}

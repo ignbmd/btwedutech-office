@@ -1,0 +1,29 @@
+.select-question img{
+    max-width: 20rem;
+    width: 100%;
+    object-fit: contain;
+    object-position: top left;
+    height: auto !important ;
+    max-height: 200px ;
+}
+
+.select-question{
+    font-size: 1rem;
+}
+
+.selected-question img{
+    max-width: 20rem;
+    width: 100%;
+    object-fit: contain;
+    object-position: top left;
+    height: auto !important ;
+    max-height: 200px ;
+}
+
+.selected-question {
+    font-size: 1rem;
+}
+
+.selected-question hr {
+    border-bottom: 1px solid #d9d9d9 !important;
+}

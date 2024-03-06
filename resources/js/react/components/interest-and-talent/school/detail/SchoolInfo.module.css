@@ -1,0 +1,112 @@
+.school-detail-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.school-image {
+  width: 8rem;
+  height: 7.68rem;
+}
+
+.school-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.school-edit-btn {
+  flex-grow: 0;
+  flex-shrink: 1;
+  align-self: flex-start;
+  margin-left: auto;
+}
+
+.vertical-divider {
+  background-color: #e8e8e8;
+  width: 2px;
+  height: 7.5rem;
+  flex-grow: 0;
+  flex-shrink: 1;
+  align-self: center;
+}
+
+.table-container {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: white;
+  width: 100%;
+  margin: 1rem auto;
+  border-radius: 4px;
+
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.table-row {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.heading {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  padding: 0.25rem;
+  text-transform: uppercase;
+}
+
+.row-item {
+  display: flex;
+  flex: 1;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.table-row:last-child,
+.row-sub-container .row-item:last-child {
+  border-bottom: 0;
+}
+
+table {
+  border: 1px solid #e8e8e8;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+td,
+th {
+  padding: 1rem;
+}
+
+th {
+  background-color: #f1f1f1;
+  text-transform: uppercase;
+  border-bottom: none;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+.assigned-code-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  padding-left: 8rem;
+}
+
+.assigned-code-section > * {
+  flex-grow: 0;
+  flex-basis: 0%;
+}
+
+.count-text {
+  font-weight: 600;
+  font-size: 2.25rem;
+}

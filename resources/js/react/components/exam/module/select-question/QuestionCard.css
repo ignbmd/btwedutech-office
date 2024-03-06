@@ -1,0 +1,10 @@
+.ckeditor img {
+    max-width: 50%;
+    object-fit: contain;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

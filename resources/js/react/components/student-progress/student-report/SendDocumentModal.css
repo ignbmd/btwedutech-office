@@ -1,0 +1,15 @@
+#phone-number {
+  border: none;
+  outline: none;
+}
+
+#phone-number:focus {
+  border-bottom: 2px solid #6CB7FF;
+}
+
+.send-document-btn {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #7699DA;
+}

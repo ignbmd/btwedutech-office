@@ -1,0 +1,1271 @@
+{
+  "menu": [
+    {
+      "url": "home",
+      "name": "Beranda",
+      "icon": "home",
+      "slug": "home"
+    },
+    {
+      "url": "dashboard",
+      "name": "Dashboard",
+      "icon": "bar-chart",
+      "slug": "dashboard"
+    },
+    {
+      "url": "dashboard-uka",
+      "name": "Dashboard UKA",
+      "icon": "bar-chart",
+      "slug": "dashboard-uka"
+    },
+    {
+      "url": "pemetaan-jurusan",
+      "name": "Pemetaan Jurusan",
+      "icon": "grid",
+      "slug": "pemetaan-jurusan",
+      "newTab": true
+    },
+    {
+      "name": "Peta Persaingan",
+      "icon": "map",
+      "slug": "peta-persaingan",
+      "submenu": [
+        {
+          "url": "peta-persaingan",
+          "name": "Peta",
+          "slug": "peta-persaingan"
+        },
+        {
+          "url": "peta-persaingan/sekolah",
+          "name": "Sekolah",
+          "slug": "peta-persaingan.sekolah.index"
+        },
+        {
+          "url": "peta-persaingan/lokasi",
+          "name": "Lokasi",
+          "slug": "peta-persaingan.lokasi.index"
+        },
+        {
+          "url": "peta-persaingan/pendidikan-terakhir",
+          "name": "Pendidikan Terakhir",
+          "slug": "peta-persaingan.pendidikan-terakhir.index"
+        },
+        {
+          "url": "peta-persaingan/program-studi",
+          "name": "Program Studi",
+          "slug": "program-studi"
+        },
+        {
+          "url": "peta-persaingan/kuota-sekolah",
+          "name": "Kuota Sekolah",
+          "slug": "kuota-sekolah"
+        },
+        {
+          "url": "peta-persaingan/kompetisi",
+          "name": "Kompetisi",
+          "slug": "kompetisi"
+        },
+        {
+          "url": "peta-persaingan/perangkingan-skd",
+          "name": "Perangkingan SKD",
+          "slug": "perangkingan-skd"
+        }
+      ]
+    },
+    {
+      "navheader": "Internal",
+      "slug": "internal"
+    },
+    {
+      "url": "cabang",
+      "name": "Cabang",
+      "icon": "globe",
+      "slug": "cabang"
+    },
+    {
+      "url": "produk",
+      "name": "Produk",
+      "icon": "package",
+      "slug": "produk"
+    },
+    {
+      "url": "produk-assessment",
+      "name": "Produk Assessment",
+      "icon": "package",
+      "slug": "produk-assessment"
+    },
+    {
+      "url": "/central-operational-item",
+      "name": "Produk Operasional",
+      "icon": "package",
+      "slug": "central-operational-item"
+    },
+    {
+      "url": "porsi-pendapatan",
+      "name": "Porsi Pendapatan",
+      "icon": "shuffle",
+      "slug": "porsi-pendapatan"
+    },
+    {
+      "url": "tagihan-cabang",
+      "name": "Tagihan Cabang",
+      "icon": "circle",
+      "slug": "branch-bill"
+    },
+    {
+      "navheader": "Admin SSO",
+      "slug": "admin-sso"
+    },
+    {
+      "url": "admin-sso/applications/",
+      "name": "Applications",
+      "icon": "layers",
+      "slug": "app-sso"
+    },
+    {
+      "url": "admin-sso/user-role/",
+      "name": "User Role",
+      "icon": "user-check",
+      "slug": "role-sso"
+    },
+    {
+      "url": "admin-sso/application-control-list/",
+      "name": "ACL",
+      "icon": "settings",
+      "slug": "acl-sso"
+    },
+    {
+      "url": "admin-sso/additional-controls/",
+      "name": "Additional Control ",
+      "icon": "share-2",
+      "slug": "additional-control-sso"
+    },
+    {
+      "url": "admin-sso/users/",
+      "name": "Users ",
+      "icon": "users",
+      "slug": "user-sso"
+    },
+    {
+      "navheader": "Pembelajaran",
+      "slug": "pembelajaran-nav"
+    },
+    {
+      "url": "pembelajaran",
+      "name": "Kelas",
+      "icon": "monitor",
+      "slug": "pembelajaran"
+    },
+    {
+      "url": "siswa",
+      "name": "Siswa",
+      "icon": "user",
+      "slug": "siswa"
+    },
+    {
+      "url": "samapta",
+      "name": "Samapta",
+      "icon": "clipboard",
+      "slug": "samapta"
+    },
+    {
+      "url": "material",
+      "name": "Referensi",
+      "icon": "book-open",
+      "slug": "material"
+    },
+    {
+      "name": "Rapor & Ranking",
+      "icon": "activity",
+      "slug": "rapor-ranking",
+      "submenu": [
+        {
+          "url": "/rapor-performa-belajar",
+          "name": "Rapor Belajar",
+          "slug": "rapor-performa-belajar"
+        },
+        {
+          "url": "/ranking-siswa",
+          "name": "Ranking Siswa",
+          "slug": "ranking-siswa"
+        }
+      ]
+    },
+    {
+      "url": "mentor",
+      "name": "Mentor",
+      "icon": "user-check",
+      "slug": "mentor"
+    },
+    {
+      "navheader": "Proyeksi Pantukhir",
+      "slug": "proyeksi-pantukhir"
+    },
+    {
+      "url": "/nilai-bkn",
+      "name": "Nilai SKD BKN",
+      "icon": "check-circle",
+      "slug": "nilai-bkn"
+    },
+    {
+      "url": "/nilai-tryout-samapta",
+      "name": "Nilai Tryout Samapta",
+      "icon": "check-circle",
+      "slug": "nilai-tryout-samapta"
+    },
+    {
+      "url": "/nilai-wawancara",
+      "name": "Nilai Wawancara",
+      "icon": "check-circle",
+      "slug": "nilai-wawancara"
+    },
+    {
+      "url": "/proyeksi-nilai-pantukhir",
+      "name": "Nilai Pantukhir",
+      "icon": "check-circle",
+      "slug": "proyeksi-nilai-pantukhir",
+      "newTab": true
+    },
+    {
+      "navheader": "Wawancara",
+      "slug": "wawancara"
+    },
+    {
+      "url": "/sesi-wawancara",
+      "name": "Nilai Wawancara",
+      "icon": "check-circle",
+      "slug": "sesi-wawancara"
+    },
+    {
+      "navheader": "Ujian",
+      "slug": "ujian"
+    },
+    {
+      "name": "Kategori",
+      "icon": "chevron-down",
+      "slug": "kategori",
+      "submenu": [
+        {
+          "url": "ujian/kategori-soal",
+          "name": "Kategori Soal",
+          "icon": "chevron-right",
+          "slug": "kategori-soal"
+        },
+        {
+          "url": "ujian/kategori-tryout-kode",
+          "name": "Kategori Tryout Kode",
+          "icon": "chevron-right",
+          "slug": "kategori-tryout-kode"
+        }
+      ]
+    },
+    {
+      "url": "ujian/sub-kategori-soal",
+      "name": "Sub Kategori Soal",
+      "icon": "chevrons-down",
+      "slug": "sub-kategori-soal"
+    },
+    {
+      "url": "ujian/instruksi",
+      "name": "Instruksi Soal",
+      "icon": "help-circle",
+      "slug": "instruksi"
+    },
+    {
+      "url": "ujian/bank-soal",
+      "name": "Bank Soal",
+      "icon": "file",
+      "slug": "bank-soal"
+    },
+    {
+      "url": "ujian/paket-soal",
+      "name": "Paket Soal",
+      "icon": "box",
+      "slug": "paket-soal"
+    },
+    {
+      "url": "ujian/paket-assessment",
+      "name": "Paket Assessment",
+      "icon": "box",
+      "slug": "paket-assessment"
+    },
+    {
+      "url": "ujian/paket-pre-test",
+      "name": "Paket Pre Test",
+      "icon": "box",
+      "slug": "paket-pre-test"
+    },
+    {
+      "url": "ujian/paket-post-test",
+      "name": "Paket Post Test",
+      "icon": "box",
+      "slug": "paket-post-test"
+    },
+    {
+      "url": "ujian/materi-belajar",
+      "name": "Materi Belajar",
+      "icon": "book-open",
+      "slug": "materi-belajar"
+    },
+    {
+      "url": "ujian/modul",
+      "name": "Modul",
+      "icon": "layers",
+      "slug": "modul"
+    },
+    {
+      "name": "Tryout",
+      "icon": "key",
+      "slug": "exam-tryout",
+      "submenu": [
+        {
+          "url": "ujian/tryout-kode",
+          "name": "Tryout Kode",
+          "slug": "exam.tryout-code"
+        },
+        {
+          "url": "ujian/tryout-premium",
+          "name": "Tryout Premium",
+          "slug": "exam.tryout-premium"
+        },
+        {
+          "url": "ujian/tryout-gratis",
+          "name": "Tryout Gratis",
+          "slug": "exam.tryout-free"
+        },
+        {
+          "url": "ujian/coba-modul",
+          "name": "Tryout Coba Modul",
+          "slug": "coba-modul"
+        }
+      ]
+    },
+    {
+      "navheader": "Ujian CPNS",
+      "slug": "ujian-cpns"
+    },
+    {
+      "name": "Kategori",
+      "icon": "chevron-down",
+      "slug": "kategori-cpns",
+      "submenu": [
+        {
+          "url": "ujian-cpns/kategori-soal",
+          "name": "Kategori Soal CPNS",
+          "icon": "chevron-right",
+          "slug": "kategori-soal-cpns"
+        },
+        {
+          "url": "ujian-cpns/kategori-tryout-kode",
+          "name": "Kategori Tryout Kode",
+          "icon": "chevron-right",
+          "slug": "kategori-tryout-kode-cpns"
+        }
+      ]
+    },
+    {
+      "url": "ujian-cpns/sub-kategori-soal",
+      "name": "Sub Kategori Soal",
+      "icon": "chevrons-down",
+      "slug": "sub-kategori-soal-cpns"
+    },
+    {
+      "url": "ujian-cpns/instruksi",
+      "name": "Instruksi Soal",
+      "icon": "help-circle",
+      "slug": "instruksi-cpns"
+    },
+    {
+      "url": "ujian-cpns/paket-soal",
+      "name": "Paket Soal",
+      "icon": "box",
+      "slug": "paket-soal-cpns"
+    },
+    {
+      "url": "ujian-cpns/paket-pre-test",
+      "name": "Paket Pre Test",
+      "icon": "box",
+      "slug": "paket-pre-test-cpns"
+    },
+    {
+      "url": "ujian-cpns/paket-post-test",
+      "name": "Paket Post Test",
+      "icon": "box",
+      "slug": "paket-post-test-cpns"
+    },
+    {
+      "url": "ujian-cpns/materi-belajar",
+      "name": "Materi Belajar",
+      "icon": "book-open",
+      "slug": "materi-belajar-cpns"
+    },
+    {
+      "url": "ujian-cpns/modul",
+      "name": "Modul",
+      "icon": "layers",
+      "slug": "modul-cpns"
+    },
+    {
+      "name": "Tryout",
+      "icon": "key",
+      "slug": "exam-tryout-cpns",
+      "submenu": [
+        {
+          "url": "ujian-cpns/tryout-kode",
+          "name": "Tryout Kode",
+          "slug": "tryout-kode-cpns"
+        },
+        {
+          "url": "ujian-cpns/tryout-premium",
+          "name": "Tryout Premium",
+          "slug": "tryout-premium-cpns"
+        },
+        {
+          "url": "ujian-cpns/coba-modul",
+          "name": "Tryout Coba Modul",
+          "slug": "coba-modul-cpns"
+        }
+      ]
+    },
+    {
+      "navheader": "Alumni",
+      "slug": "alumni-nav"
+    },
+    {
+      "url": "alumni",
+      "name": "Alumni Siswa",
+      "icon": "users",
+      "slug": "alumni"
+    },
+    {
+      "navheader": "Stages",
+      "slug": "stages.nav"
+    },
+    {
+      "url": "stages/PTK",
+      "name": "Stage PTK",
+      "icon": "circle",
+      "slug": "stages-ptk"
+    },
+    {
+      "url": "stages/PTN",
+      "name": "Stage PTN",
+      "icon": "circle",
+      "slug": "stages-ptn"
+    },
+    {
+      "url": "stages/CPNS",
+      "name": "Stage CPNS",
+      "icon": "circle",
+      "slug": "stages-cpns"
+    },
+    {
+      "navheader": "Stages Kelas",
+      "slug": "stages-kelas.nav"
+    },
+    {
+      "url": "stages-kelas/PTK",
+      "name": "Stage Kelas PTK",
+      "icon": "circle",
+      "slug": "stages-kelas-ptk"
+    },
+    {
+      "url": "stages-kelas/PTN",
+      "name": "Stage Kelas PTN",
+      "icon": "circle",
+      "slug": "stages-kelas-ptn"
+    },
+    {
+      "url": "stages-kelas/CPNS",
+      "name": "Stage Kelas CPNS",
+      "icon": "circle",
+      "slug": "stages-kelas-CPNS"
+    },
+    {
+      "navheader": "Akses UKA Stages Kelas",
+      "slug": "akses-uka-stages.nav"
+    },
+    {
+      "url": "akses-uka-stages/generate-kode-akses",
+      "name": "Akses UKA Stage",
+      "icon": "circle",
+      "slug": "akses-uka-stages"
+    },
+    {
+      "navheader": "Soal Stages",
+      "slug": "soal-stages-nav"
+    },
+    {
+      "url": "soal-stages/PTK",
+      "name": "Soal Stage PTK",
+      "icon": "circle",
+      "slug": "soal-stages-ptk"
+    },
+    {
+      "url": "soal-multistages",
+      "name": "Soal Multi Stage",
+      "icon": "circle",
+      "slug": "soal-multistages"
+    },
+    {
+      "navheader": "Soal UKA Kode",
+      "slug": "soal-uka-kode-nav"
+    },
+    {
+      "url": "soal-uka-kode",
+      "name": "Soal UKA Kode",
+      "icon": "circle",
+      "slug": "soal-uka-kode"
+    },
+    {
+      "navheader": "Soal Latihan",
+      "slug": "soal-latihan-nav"
+    },
+    {
+      "name": "Pre-Test",
+      "icon": "circle",
+      "slug": "soal-latihan-pre-test",
+      "submenu": [
+        {
+          "url": "soal-latihan/pre-test/skd/twk",
+          "name": "TWK",
+          "slug": "soal-latihan-pre-test-twk"
+        },
+        {
+          "url": "soal-latihan/pre-test/skd/tiu",
+          "name": "TIU",
+          "slug": "soal-latihan-pre-test-tiu"
+        },
+        {
+          "url": "soal-latihan/pre-test/skd/tkp",
+          "name": "TKP",
+          "slug": "soal-latihan-pre-test-tkp"
+        },
+        {
+          "url": "soal-latihan/pre-test/utbk/penalaran-umum",
+          "name": "PU",
+          "slug": "soal-latihan-pre-test-penalaran-umum"
+        },
+        {
+          "url": "soal-latihan/pre-test/utbk/pengetahuan-umum",
+          "name": "PPU",
+          "slug": "soal-latihan-pre-test-pengetahuan-umum"
+        },
+        {
+          "url": "soal-latihan/pre-test/utbk/pemahaman-bacaan",
+          "name": "PBM",
+          "slug": "soal-latihan-pre-test-pemahaman-bacaan"
+        },
+        {
+          "url": "soal-latihan/pre-test/utbk/pengetahuan-kuantitatif",
+          "name": "PK",
+          "slug": "soal-latihan-pre-test-pengetahuan-kuantitatif"
+        },
+        {
+          "url": "soal-latihan/pre-test/utbk/literasi-bahasa-indonesia",
+          "name": "LBind",
+          "slug": "soal-latihan-pre-test-literasi-bahasa-indonesia"
+        },
+        {
+          "url": "soal-latihan/pre-test/utbk/literasi-bahasa-inggris",
+          "name": "LBing",
+          "slug": "soal-latihan-pre-test-literasi-bahasa-inggris"
+        },
+        {
+          "url": "soal-latihan/pre-test/utbk/penalaran-matematika",
+          "name": "PM",
+          "slug": "soal-latihan-pre-test-penalaran-matematika"
+        }
+      ]
+    },
+    {
+      "navheader": "Soal Kelas",
+      "slug": "soal-kelas-nav"
+    },
+    {
+      "name": "Pre-Test",
+      "icon": "circle",
+      "slug": "soal-kelas-pre-test",
+      "submenu": [
+        {
+          "url": "soal-kelas/pre-test/skd/twk",
+          "name": "TWK",
+          "slug": "soal-kelas-pre-test-twk"
+        },
+        {
+          "url": "soal-kelas/pre-test/skd/tiu",
+          "name": "TIU",
+          "slug": "soal-kelas-pre-test-tiu"
+        },
+        {
+          "url": "soal-kelas/pre-test/skd/tkp",
+          "name": "TKP",
+          "slug": "soal-kelas-pre-test-tkp"
+        },
+        {
+          "url": "soal-kelas/pre-test/utbk/penalaran-umum",
+          "name": "PU",
+          "slug": "soal-kelas-pre-test-penalaran-umum"
+        },
+        {
+          "url": "soal-kelas/pre-test/utbk/pengetahuan-umum",
+          "name": "PPU",
+          "slug": "soal-kelas-pre-test-pengetahuan-umum"
+        },
+        {
+          "url": "soal-kelas/pre-test/utbk/pemahaman-bacaan",
+          "name": "PBM",
+          "slug": "soal-kelas-pre-test-pemahaman-bacaan"
+        },
+        {
+          "url": "soal-kelas/pre-test/utbk/pengetahuan-kuantitatif",
+          "name": "PK",
+          "slug": "soal-kelas-pre-test-pengetahuan-kuantitatif"
+        },
+        {
+          "url": "soal-kelas/pre-test/utbk/literasi-bahasa-indonesia",
+          "name": "LBind",
+          "slug": "soal-kelas-pre-test-literasi-bahasa-indonesia"
+        },
+        {
+          "url": "soal-kelas/pre-test/utbk/literasi-bahasa-inggris",
+          "name": "LBing",
+          "slug": "soal-kelas-pre-test-literasi-bahasa-inggris"
+        },
+        {
+          "url": "soal-kelas/pre-test/utbk/penalaran-matematika",
+          "name": "PM",
+          "slug": "soal-kelas-pre-test-penalaran-matematika"
+        }
+      ]
+    },
+    {
+      "navheader": "Sekolah",
+      "slug": "sekolah-nav"
+    },
+    {
+      "url": "sekolah",
+      "name": "Sekolah",
+      "icon": "home",
+      "slug": "sekolah"
+    },
+    {
+      "navheader": "Peminatan",
+      "slug": "peminatan-nav"
+    },
+    {
+      "url": "peminatan/sekolah",
+      "name": "MOU Sekolah BTW",
+      "icon": "home",
+      "slug": "peminatan-sekolah"
+    },
+    {
+      "url": "peminatan/peserta",
+      "name": "Peserta",
+      "icon": "users",
+      "slug": "peminatan-peserta"
+    },
+    {
+      "url": "peminatan/riwayat-request-kode",
+      "name": "Request Kode",
+      "icon": "tag",
+      "slug": "peminatan-riwayat-request-kode"
+    },
+    {
+      "navheader": "Kode Ujian Minat Bakat",
+      "slug": "kode-ujian-minat-bakat-khusus-cabang"
+    },
+    {
+      "url": "/kode-ujian-minat-bakat",
+      "name": "Kode Ujian Minat Bakat",
+      "icon": "check-circle",
+      "slug": "kode-ujian-minat-bakat-khusus-cabang"
+    },
+    {
+      "navheader": "Dynamic Survey Form",
+      "slug": "dynamic-menu"
+    },
+    {
+      "url": "dynamic-form/",
+      "name": "Survey Tag Form",
+      "icon": "archive",
+      "slug": "dynamic-menu"
+    },
+    {
+      "navheader": "Keuangan",
+      "slug": "keuangan-nav"
+    },
+    {
+      "name": "Penjualan",
+      "icon": "shopping-cart",
+      "slug": "penjualan-nav",
+      "submenu": [
+        {
+          "url": "penjualan",
+          "name": "Produk Bimbel",
+          "slug": "penjualan"
+        },
+        {
+          "url": "penjualan-siplah",
+          "name": "SIPLAH",
+          "slug": "penjualan-siplah"
+        },
+        {
+          "url": "penjualan-assessment",
+          "name": "Asesmen Sekolah",
+          "slug": "penjualan-assessment"
+        }
+      ]
+    },
+    {
+      "url": "tagihan",
+      "name": "Tagihan",
+      "icon": "dollar-sign",
+      "slug": "tagihan"
+    },
+    {
+      "url": "keuangan",
+      "name": "Transfer / Tarik Dana",
+      "icon": "refresh-cw",
+      "slug": "keuangan"
+    },
+    {
+      "url": "coa",
+      "name": "Akun",
+      "icon": "check-circle",
+      "slug": "coa"
+    },
+    {
+      "url": "bayar-dan-tagih",
+      "name": "Bayar & Tagih",
+      "icon": "circle",
+      "slug": "bayar-tagih"
+    },
+    {
+      "url": "biaya",
+      "name": "Biaya",
+      "icon": "credit-card",
+      "slug": "biaya"
+    },
+    {
+      "navheader": "Afiliasi",
+      "slug": "afiliasi-nav"
+    },
+    {
+      "name": "Mitra",
+      "icon": "user-check",
+      "slug": "mitra-nav",
+      "submenu": [
+        {
+          "url": "/dashboard-mitra",
+          "name": "Dashboard Mitra",
+          "slug": "dashboard-mitra"
+        },
+        {
+          "url": "/mitra",
+          "name": "Data Mitra",
+          "slug": "mitra"
+        },
+        {
+          "url": "/mitra/akun-bank/request-update-rekening",
+          "name": "Request Update Rekening",
+          "slug": "mitra.request-update-rekening-bank"
+
+        }
+      ]
+    },
+    {
+      "url": "/withdraw",
+      "name": "Withdraw",
+      "icon": "credit-card",
+      "slug": "withdraw"
+    },
+    {
+      "url": "/kode-diskon",
+      "name": "Kode Diskon",
+      "icon": "percent",
+      "slug": "kode-diskon"
+    },
+    {
+      "name": "Atur Besaran Komisi",
+      "icon": "percent",
+      "slug": "pengaturan-porsi-nav",
+      "submenu": [
+        {
+          "url": "/pengaturan-porsi/global",
+          "name": "Global",
+          "slug": "pengaturan-porsi-global"
+        },
+        {
+          "url": "/pengaturan-porsi/per-mitra",
+          "name": "Per Mitra",
+          "slug": "pengaturan-porsi-per-mitra"
+        }
+      ]
+    },
+    {
+      "name": "Atur Besaran Diskon",
+      "icon": "percent",
+      "slug": "pengaturan-diskon-nav",
+      "submenu": [
+        {
+          "url": "/pengaturan-diskon/global",
+          "name": "Global",
+          "slug": "pengaturan-diskon-global"
+        },
+        {
+          "url": "/pengaturan-diskon/per-mitra",
+          "name": "Per Mitra",
+          "slug": "pengaturan-diskon-per-mitra"
+        }
+      ]
+    },
+    {
+      "name": "Perpajakan",
+      "icon": "credit-card",
+      "slug": "perpajakan-nav",
+      "submenu": [
+        {
+          "url": "/pengaturan-pajak",
+          "name": "Pengaturan Pajak",
+          "slug": "pengaturan-pajak"
+        },
+        {
+          "url": "/pembayaran-pajak",
+          "name": "Pembayaran Pajak",
+          "slug": "pembayaran-pajak"
+        }
+      ]
+    },
+    {
+      "navheader": "Kode Buku",
+      "slug": "ebookcode-nav"
+    },
+    {
+      "url": "/kode-buku",
+      "name": "Kode Buku",
+      "icon": "book",
+      "slug": "kode-buku"
+    },
+    {
+      "url": "/kode-buku/riwayat-redeem",
+      "name": "Riwayat Redeem",
+      "icon": "book",
+      "slug": "kode-buku.riwayat-redeem"
+    },
+    {
+      "navheader": "Top Up Koin",
+      "slug": "top-up-coin"
+    },
+    {
+      "url": "/top-up-coin",
+      "name": "Top Up Koin",
+      "icon": "circle",
+      "slug": "top-up-coin"
+    },
+    {
+      "navheader": "Kesehatan",
+      "slug": "kesehatan-nav"
+    },
+    {
+      "url": "/kesehatan/stakes",
+      "name": "Stakes",
+      "icon": "alert-circle",
+      "slug": "kesehatan.stakes"
+    },
+    {
+      "url": "/kesehatan/check",
+      "name": "Pemeriksaan",
+      "icon": "check-square",
+      "slug": "kesehatan.check"
+    },
+    {
+      "url": "/kesehatan/riwayat-pemeriksaan",
+      "name": "Riwayat Pemeriksaan",
+      "icon": "list",
+      "slug": "kesehatan.history"
+    },
+    {
+      "navheader": "Misc.",
+      "slug": "misc-nav"
+    },
+    {
+      "url": "/bukti-pembayaran-cash",
+      "name": "Bukti Pembayaran Cash",
+      "icon": "file-text",
+      "slug": "bukti-pembayaran-cash"
+    },
+    {
+      "url": "/surat-terima-cash",
+      "name": "Surat Terima Cash",
+      "icon": "file-text",
+      "slug": "surat-terima-cash"
+    },
+    {
+      "url": "/file-manager",
+      "name": "File Manager",
+      "icon": "folder",
+      "slug": "file-manager",
+      "newTab": true
+    },
+    {
+      "url": "/file-manager?bucket=video",
+      "name": "File Manager - Video",
+      "icon": "folder",
+      "slug": "file-manager",
+      "newTab": true
+    },
+    {
+      "url": "/ranking/group-tryout-kode",
+      "name": "Kirim Ranking Grup TO",
+      "icon": "send",
+      "slug": "notifikasi"
+    }
+  ],
+  "roles": {
+    "admin": {
+      "allowed": [
+        "*"
+      ],
+      "guarded": [
+        "*"
+      ]
+    },
+    "kepala_cabang": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "keuangan-nav",
+        "penjualan",
+        "tagihan",
+        "biaya",
+        "misc-nav",
+        "notifikasi"
+      ]
+    },
+    "admin_cabang": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "keuangan-nav",
+        "penjualan",
+        "tagihan",
+        "biaya",
+        "misc-nav",
+        "notifikasi"
+      ]
+    },
+    "admin_tatap_muka_online": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "siswa",
+        "exam-tryout",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "keuangan-nav",
+        "penjualan",
+        "tagihan",
+        "biaya",
+        "misc-nav",
+        "notifikasi"
+      ]
+    },
+    "admin_p3k_online": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "siswa",
+        "exam-tryout",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "keuangan-nav",
+        "penjualan",
+        "tagihan",
+        "biaya",
+        "misc-nav",
+        "notifikasi"
+      ]
+    },
+    "mentor": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout"
+      ]
+    },
+    "front_office": {
+      "allowed": [
+        "home",
+        "siswa",
+        "pembelajaran-nav",
+        "keuangan-nav",
+        "penjualan",
+        "transaksi"
+      ]
+    },
+    "dokter": {
+      "allowed": [
+        "home",
+        "kesehatan-nav",
+        "kesehatan.check",
+        "kesehatan.history"
+      ]
+    },
+    "pemantau_cabang": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout"
+      ]
+    },
+    "admin_modul": {
+      "allowed": [
+        "home",
+        "ujian",
+        "instruksi",
+        "bank-soal",
+        "modul"
+      ]
+    },
+    "mentor_twk": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "soal-uka-kode-nav",
+        "soal-uka-kode",
+        "soal-latihan-nav",
+        "soal-latihan-pre-test",
+        "soal-latihan-post-test",
+        "soal-latihan-pre-test-twk",
+        "soal-latihan-post-test-twk",
+        "soal-kelas-nav",
+        "soal-kelas-pre-test",
+        "soal-kelas-post-test",
+        "soal-kelas-pre-test-twk",
+        "soal-kelas-post-test-twk"
+      ]
+    },
+    "mentor_tiu": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "soal-uka-kode-nav",
+        "soal-uka-kode",
+        "soal-latihan-nav",
+        "soal-latihan-pre-test",
+        "soal-latihan-post-test",
+        "soal-latihan-pre-test-tiu",
+        "soal-latihan-post-test-tiu",
+        "soal-kelas-nav",
+        "soal-kelas-pre-test",
+        "soal-kelas-post-test",
+        "soal-kelas-pre-test-tiu",
+        "soal-kelas-post-test-tiu"
+      ]
+    },
+    "mentor_tkp": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "soal-uka-kode-nav",
+        "soal-uka-kode",
+        "soal-latihan-nav",
+        "soal-latihan-pre-test",
+        "soal-latihan-post-test",
+        "soal-latihan-pre-test-tkp",
+        "soal-latihan-post-test-tkp",
+        "soal-kelas-nav",
+        "soal-kelas-pre-test",
+        "soal-kelas-post-test",
+        "soal-kelas-pre-test-tkp",
+        "soal-kelas-post-test-tkp"
+      ]
+    },
+    "mentor_penalaran_umum": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "soal-latihan-nav",
+        "soal-latihan-pre-test",
+        "soal-latihan-post-test",
+        "soal-latihan-pre-test-penalaran-umum",
+        "soal-latihan-post-test-penalaran-umum",
+        "soal-kelas-nav",
+        "soal-kelas-pre-test",
+        "soal-kelas-post-test",
+        "soal-kelas-pre-test-penalaran-umum",
+        "soal-kelas-post-test-penalaran-umum"
+      ]
+    },
+    "mentor_pengetahuan_umum": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "soal-latihan-nav",
+        "soal-latihan-pre-test",
+        "soal-latihan-post-test",
+        "soal-latihan-pre-test-pengetahuan-umum",
+        "soal-latihan-post-test-pengetahuan-umum",
+        "soal-kelas-nav",
+        "soal-kelas-pre-test",
+        "soal-kelas-post-test",
+        "soal-kelas-pre-test-pengetahuan-umum",
+        "soal-kelas-post-test-pengetahuan-umum"
+      ]
+    },
+    "mentor_pemahaman_bacaan": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "soal-latihan-nav",
+        "soal-latihan-pre-test",
+        "soal-latihan-post-test",
+        "soal-latihan-pre-test-pemahaman-bacaan",
+        "soal-latihan-post-test-pemahaman-bacaan",
+        "soal-kelas-nav",
+        "soal-kelas-pre-test",
+        "soal-kelas-post-test",
+        "soal-kelas-pre-test-pemahaman-bacaan",
+        "soal-kelas-post-test-pemahaman-bacaan"
+      ]
+    },
+    "mentor_pengetahuan_kuantitatif": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "soal-latihan-nav",
+        "soal-latihan-pre-test",
+        "soal-latihan-post-test",
+        "soal-latihan-pre-test-pengetahuan-kuantitatif",
+        "soal-latihan-post-test-pengetahuan-kuantitatif",
+        "soal-kelas-nav",
+        "soal-kelas-pre-test",
+        "soal-kelas-post-test",
+        "soal-kelas-pre-test-pengetahuan-kuantitatif",
+        "soal-kelas-post-test-pengetahuan-kuantitatif"
+      ]
+    },
+    "mentor_literasi_bahasa_indonesia": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "soal-latihan-nav",
+        "soal-latihan-pre-test",
+        "soal-latihan-post-test",
+        "soal-latihan-pre-test-literasi-bahasa-indonesia",
+        "soal-latihan-post-test-literasi-bahasa-indonesia",
+        "soal-kelas-nav",
+        "soal-kelas-pre-test",
+        "soal-kelas-post-test",
+        "soal-kelas-pre-test-literasi-bahasa-indonesia",
+        "soal-kelas-post-test-literasi-bahasa-indonesia"
+      ]
+    },
+    "mentor_literasi_bahasa_inggris": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "soal-latihan-nav",
+        "soal-latihan-pre-test",
+        "soal-latihan-post-test",
+        "soal-latihan-pre-test-literasi-bahasa-inggris",
+        "soal-latihan-post-test-literasi-bahasa-inggris",
+        "soal-kelas-nav",
+        "soal-kelas-pre-test",
+        "soal-kelas-post-test",
+        "soal-kelas-pre-test-literasi-bahasa-inggris",
+        "soal-kelas-post-test-literasi-bahasa-inggris"
+      ]
+    },
+    "mentor_penalaran_matematika": {
+      "allowed": [
+        "home",
+        "pembelajaran-nav",
+        "pembelajaran",
+        "material",
+        "performa",
+        "performa.class-member.index",
+        "performa.class-member.index-tryout",
+        "soal-latihan-nav",
+        "soal-latihan-pre-test",
+        "soal-latihan-post-test",
+        "soal-latihan-pre-test-penalaran-matematika",
+        "soal-latihan-post-test-penalaran-matematika",
+        "soal-kelas-nav",
+        "soal-kelas-pre-test",
+        "soal-kelas-post-test",
+        "soal-kelas-pre-test-penalaran-matematika",
+        "soal-kelas-post-test-penalaran-matematika"
+      ]
+    }
+  }
+}

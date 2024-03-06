@@ -1,0 +1,12 @@
+.filepond--root {
+  margin-bottom: 0;
+}
+
+.filepond-is-invalid {
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+}
+
+.filepond--root .filepond--credits {
+  display: none;
+}

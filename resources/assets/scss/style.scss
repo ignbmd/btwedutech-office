@@ -1,0 +1,192 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+@font-face {
+  font-family: "Axiforma-Regular";
+  src: url("/fonts/Axiforma/Axiforma-Regular.woff");
+}
+
+@font-face {
+  font-family: "Axiforma-SemiBold";
+  src: url("/fonts/Axiforma/Axiforma-SemiBold.woff");
+}
+
+$font-axiforma: "Axiforma-Regular", "sans-serif";
+$font-axiforma-semibold: "Axiforma-SemiBold", "sans-serif";
+
+.font-monospace {
+  font-family: monospace, "sans-serif";
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.branch-label {
+  padding: 4px 10px;
+  border: 2px dashed #ea5455;
+  border-radius: 4px;
+}
+
+.main-menu ul.navigation-main {
+  padding-top: 1em;
+}
+
+.pb-scroll-datatable {
+  padding-bottom: 100px;
+}
+
+.custom-is-invalid {
+  border: 1px solid #ea5455;
+}
+
+// ** Badge
+.badge-nowrap {
+  white-space: normal;
+  word-break: break-word;
+}
+
+// ** Auth
+.auth-circle-bg-container {
+  position: relative;
+  left: 50%;
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+
+  .circle1 {
+    width: 1000px;
+    height: 1000px;
+    background-color: #46dff1;
+  }
+
+  .circle2 {
+    width: 800px;
+    height: 800px;
+    background-color: #22d9ef;
+  }
+
+  .circle3 {
+    width: 550px;
+    height: 550px;
+    background-color: #00cfe8;
+  }
+}
+
+.auth-wrapper .slogan-text,
+.partner-logo-container,
+.auth-illustration-container {
+  position: absolute;
+}
+
+.auth-illustration-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.partner-logo-container,
+.auth-wrapper .slogan-text,
+.auth-illustration-container {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.partner-logo-container {
+  z-index: 1;
+  top: 40px;
+}
+
+.auth-wrapper .slogan-text {
+  bottom: 20px;
+  color: #007a89;
+  font-size: 18px;
+  font-family: $font-axiforma-semibold;
+}
+
+// ** Custom Tab Pane
+.tab-content > .tab-pane {
+  transform: scale(0);
+  display: block;
+  height: 0;
+}
+
+.tab-content > .active {
+  transform: scale(1);
+  display: block;
+  height: auto;
+  // position: static;
+}
+
+// ** Custom Button Top Datatable
+.filter-action-datatable {
+  min-width: 100px;
+}
+
+// ** Custom Card Statistic
+.card-statistics .statistics-body.statistics-body--pb-0 {
+  padding: 2rem 2.4rem 0 !important;
+}
+
+// ** Block Content
+.block-content {
+  position: relative;
+}
+
+.block-content > * {
+  opacity: 0.6;
+}
+
+.block-content::before {
+  content: "";
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+// ** Note Block
+.notes {
+  background-color: #F8F8F8;
+  padding: 1em 1.5em;
+  position: relative;
+}
+
+.notes::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  background-color: #DDDDDD;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.form-control {
+  background-color: transparent;
+}
+
+// ** Custom AVRadioGroup Form Controller
+@import "./pages/product.scss";
+@import "./pages/medical-checkup.scss";
+@import "./variables/custom-dark-layout";
+@import "./pages/question.scss";
